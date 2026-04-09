@@ -248,3 +248,43 @@ body {
     color: white;
     cursor: pointer;
 }
+
+
+#subcribe{
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+text-transform: uppercase;
+    padding: 2rem;
+    font-family: regular;
+}
+
+#subcribe h3{
+    font-size: 0.9rem;
+}
+
+#subcribe h2{
+    font-size: 1rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.left{
+    display: flex;
+       align-items: center;
+       gap: 1.5rem;
+
+}
+
+.right{
+    display: flex;
+       align-items: center;
+       gap: 1.5rem;
+
+
+}
