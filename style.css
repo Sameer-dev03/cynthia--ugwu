@@ -51,7 +51,8 @@ body {
 }
 
 #hero {
-
+    width: 100%;
+    height: 100vh;
     padding: 0px 20px;
 }
 
@@ -129,3 +130,121 @@ body {
 }
 
 
+#section2 {
+    width: 93%;
+    margin: auto;
+    height: 100vh;
+
+}
+
+.elem h1 {
+    text-transform: uppercase;
+    font-family: regular;
+    font-size: 4rem;
+    color: aliceblue;
+
+}
+
+.elem {
+    padding: 2rem 0rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.16);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+.last-elem {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+
+}
+
+
+.elem img {
+    position: absolute;
+    width: 15rem;
+    display: none;
+
+}
+
+
+#client {
+    margin-top: 10rem;
+
+    width: 100%;
+    overflow: hidden;
+
+}
+
+
+.slider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: max-content;
+    gap: 8rem;
+    margin-bottom: 3rem;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 2rem 0rem;
+    opacity: .7;
+    animation: scroll 50s linear infinite;
+
+
+}
+
+.slider img {
+    object-fit: cover;
+    width: 150px;
+    flex-shrink: 0;
+
+
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-20%);
+    }
+}
+
+#about{
+    display: flex;
+        margin: 10rem 0rem ;
+ padding-left: 25rem;
+    align-items: center;
+    gap: 2rem;
+    font-family: regular;
+
+}
+
+#about img{
+    width: 15rem;
+}
+
+.content h3{
+    opacity: .7;
+    font-size: 0.9rem;
+    
+}
+.content{
+    width: 35rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.content button{
+    width: fit-content;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 0.7rem 1rem;
+    border-radius: 70%;
+    color: white;
+    cursor: pointer;
+}
